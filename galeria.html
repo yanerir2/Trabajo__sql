@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrownChocolate - Galería & Variedades</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="d-flex flex-column min-vh-100 bg-white text-dark">
+
+    <!-- HEADER / NAVEGACIÓN -->
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="../index.html">
+                <i class="fa-solid fa-cake-candles fa-lg me-2 text-warning"></i> <strong>BrownChocolate</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link active fw-bold text-warning" href="galeria.html">Galería & Variedades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL: GALERÍA EXACTA A LA MAQUETA -->
+    <main class="flex-fill container my-5">
+        <!-- TÍTULO Y DESCRIPCIÓN CENTRADOS -->
+        <div class="text-center mb-5 px-3">
+            <h1 class="display-5 fw-normal">Portafolio</h1>
+            <p class="text-muted mx-auto" style="max-width: 750px;">
+                Explora cada una de nuestras creaciones artesanales elaboradas con auténtico cacao premium e ingredientes seleccionados.
+            </p>
+        </div>
+
+        <!-- REJILLA DE IMÁGENES (3 COLUMNAS EN ESCRITORIO / 1 COLUMNA EN MÓVIL) -->
+        <div class="row g-4">
+            <!-- Imagen 1 -->
+            <div class="col-12 col-md-4">
+                <img src="../assets/images/Brownies%20clasico.jpg" class="img-fluid rounded shadow-sm object-fit-cover w-100 img-zoomable" style="height: 230px; cursor: pointer;" alt="Brownie Clásico" data-titulo="Brownie Clásico">
+            </div>
+            <!-- Imagen 2 -->
+            <div class="col-12 col-md-4">
+                <img src="../assets/images/Biscoff%20Brownies.jpg" class="img-fluid rounded shadow-sm object-fit-cover w-100 img-zoomable" style="height: 230px; cursor: pointer;" alt="Biscoff Brownies" data-titulo="Biscoff Brownies">
+            </div>
+            <!-- Imagen 3 -->
+            <div class="col-12 col-md-4">
+                <img src="../assets/images/Dubai%20Brownies.jpg" class="img-fluid rounded shadow-sm object-fit-cover w-100 img-zoomable" style="height: 230px; cursor: pointer;" alt="Dubai Brownies" data-titulo="Dubai Brownies">
+            </div>
+            <!-- Imagen 4 -->
+            <div class="col-12 col-md-4">
+                <img src="../assets/images/Oreo%20Brownies.jpg" class="img-fluid rounded shadow-sm object-fit-cover w-100 img-zoomable" style="height: 230px; cursor: pointer;" alt="Oreo Brownies" data-titulo="Oreo Brownies">
+            </div>
+            <!-- Imagen 5 -->
+            <div class="col-12 col-md-4">
+                <img src="../assets/images/Cookies%20Brownies.jpg" class="img-fluid rounded shadow-sm object-fit-cover w-100 img-zoomable" style="height: 230px; cursor: pointer;" alt="Cookies & Brownies" data-titulo="Cookies & Brownies">
+            </div>
+            <!-- Imagen 6 -->
+            <div class="col-12 col-md-4">
+                <img src="../assets/images/Brownies%20RedVelvert.jpg" class="img-fluid rounded shadow-sm object-fit-cover w-100 img-zoomable" style="height: 230px; cursor: pointer;" alt="Red Velvet Brownies" data-titulo="Red Velvet Brownies">
+            </div>
+            <!-- Imagen 7 -->
+            <div class="col-12 col-md-4">
+                <img src="../assets/images/Blondie.jpg" class="img-fluid rounded shadow-sm object-fit-cover w-100 img-zoomable" style="height: 230px; cursor: pointer;" alt="Blondie Especial" data-titulo="Blondie Especial">
+            </div>
+            <!-- Imagen 8 -->
+            <div class="col-12 col-md-4">
+                <img src="../assets/images/Caramel%20Brownies.jpg" class="img-fluid rounded shadow-sm object-fit-cover w-100 img-zoomable" style="height: 230px; cursor: pointer;" alt="Caramel Brownies" data-titulo="Caramel Brownies">
+            </div>
+            <!-- Imagen 9 -->
+            <div class="col-12 col-md-4">
+                <img src="../assets/images/Pecan%20Pie%20Brownies.jpg" class="img-fluid rounded shadow-sm object-fit-cover w-100 img-zoomable" style="height: 230px; cursor: pointer;" alt="Pecan Pie Brownies" data-titulo="Pecan Pie Brownies">
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white pt-4 pb-3 mt-auto">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 mb-3">
+                    <h5>BrownChocolate</h5>
+                    <p class="small text-white-50">El arte de hornear felicidad en cada cuadrado de chocolate.</p>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <h5>Navegación</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../index.html" class="text-decoration-none text-white-50">Inicio</a></li>
+                        <li><a href="galeria.html" class="text-decoration-none text-white-50">Galería & Variedades</a></li>
+                        <li><a href="contacto.html" class="text-decoration-none text-white-50">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <h5>Redes Sociales</h5>
+                    <div class="d-flex gap-3 fs-5">
+                        <a href="https://facebook.com" target="_blank" class="text-white"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com" target="_blank" class="text-white"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://tiktok.com" target="_blank" class="text-white"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-secondary">
+            <div class="text-center small text-white-50">
+                &copy; 2026 BrownChocolate. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('click', function (event) {
+            if (event.target.classList.contains('img-zoomable')) {
+                const src = event.target.getAttribute('src');
+                const titulo = event.target.getAttribute('data-titulo') || 'Variedad';
+                const modal = new bootstrap.Modal(document.getElementById('imageModal'));
+                document.getElementById('modalImage').setAttribute('src', src);
+                document.getElementById('modalImageTitle').textContent = titulo;
+                modal.show();
+            }
+        });
+    </script>
+    
+    <!-- MODAL PARA VER LA IMAGEN EN GRANDE -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-dark text-white border-0">
+                <div class="modal-header border-secondary">
+                    <h5 class="modal-title" id="modalImageTitle">Detalle</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center p-2">
+                    <img id="modalImage" src="" class="img-fluid rounded" style="max-height: 75vh;" alt="Zoom">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
